@@ -78,6 +78,16 @@
     top: 68%;
 }
 
+.btn-primary5 {
+    padding: 16px 71px;
+    background-color: rgba(230, 83, 60, 1);
+    border: 1px solid rgba(230, 83, 60, 1);
+    border-radius: 42px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
 .five {
     font-weight: 900;
     font-size: 2.5rem;
@@ -199,6 +209,40 @@
     max-width: 230px;
 }
 
+/* Run Section */
+.run {
+    justify-content: space-between;
+    background-color: rgba(34, 34, 34, 1);
+    margin-top: 100px;
+
+}
+
+.run-content {
+    max-width: 443px;
+    margin-left: 54px;
+}
+
+.run-title {
+    font-size: 3rem;
+    margin-bottom: 14px;
+}
+
+.run-des {
+    font-size: 0.8rem;
+}
+
+.img-container {
+    max-width: 366px;
+    margin-right: 32px;
+
+}
+
+.img-container>img {
+    width: 100%;
+    padding: 30px 0px;
+    border-radius: 35px;
+}
+
 /* Responsive Part */
 @media screen and (max-width:576px) {
 
@@ -206,10 +250,11 @@
     .nav-item {
         display: none;
     }
-   .nav-title
-   {
-     margin-left: 20px;
-   }
+
+    .nav-title {
+        margin-left: 20px;
+    }
+
     .menu-icon {
         display: inline;
         padding-right: 20px;
@@ -238,20 +283,38 @@
         left: 5%;
         top: 170%;
     }
-    .banner-content
-    {
+
+    .banner-content {
         padding: 0 20px;
     }
+
     /* Habit Part */
-    .habit
-    {
+    .habit {
         margin-top: 150%;
         margin-left: 28px;
         margin-right: 28px;
     }
+
     .habit-images-container {
-        
+
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* Run Part */
+    .run {
+        flex-direction: column;
+    }
+    .run-content{
+        padding: 10px 33px 5px 30px;
+    }
+    .img-container {
+        max-width: 287px;
+       padding: 15px 33px 5px 30px;
+       margin: 0 auto;
+    }
+    .img-container>img {
+        border-radius: 35px;
+        margin-left: 10px;
+
+    }
 }

@@ -65,6 +65,7 @@
     left: 75%;
     top: 25%;
 }
+
 .btn-primary4 {
     padding: 16px 30px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -76,24 +77,25 @@
     left: 55%;
     top: 68%;
 }
-.five
-{
-    font-weight:900;
+
+.five {
+    font-weight: 900;
     font-size: 2.5rem;
 }
-.free
-{
+
+.free {
     color: rgba(255, 255, 255, 0.65);
 }
-.three
-{
-    font-weight:900;
+
+.three {
+    font-weight: 900;
     font-size: 2.5rem;
 }
-.video
-{
+
+.video {
     color: rgba(255, 255, 255, 0.65);
 }
+
 /* Navbar Section */
 
 .navbar {
@@ -106,6 +108,7 @@
     font-size: 2.25rem;
     font-weight: bolder;
     color: rgba(230, 83, 60, 1);
+    font-style: italic;
 }
 
 .nav-item>.nav-li {
@@ -148,20 +151,71 @@
     font-size: 4.8rem;
     margin-bottom: 28px;
 }
+
 .banner-img-container {
     position: relative;
 }
+
+/* Habit Part */
+.habit-container {
+    max-width: 671px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.habit-title-1 {
+    font-size: 3rem;
+    margin-top: 100px;
+}
+
+.habit-des-1 {
+    margin-bottom: 58px;
+}
+
+.habit-images-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.habit-img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habit-img {
+    border-radius: 50%;
+
+}
+
+.habit-title {
+    margin-top: 30px;
+    margin-bottom: 6px;
+}
+
+.habit-description {
+    text-align: center;
+    font-size: 0.8rem;
+    max-width: 230px;
+}
+
 /* Responsive Part */
 @media screen and (max-width:576px) {
+
     /* Nav Part */
     .nav-item {
         display: none;
     }
-
+   .nav-title
+   {
+     margin-left: 20px;
+   }
     .menu-icon {
         display: inline;
+        padding-right: 20px;
     }
-   /* Banner Part */
+
+    /* Banner Part */
     .banner {
         flex-direction: column;
     }
@@ -169,18 +223,35 @@
     .banner-content {
         margin-right: 0;
     }
-    .banner-img
-    {
+
+    .banner-img {
         position: absolute;
         left: 5%;
     }
+
     .btn-primary3 {
-        left:55%;
-        top: 110%;
+        left: 51%;
+        top: 130%;
     }
+
     .btn-primary4 {
         left: 5%;
-        top: 150%;
+        top: 170%;
     }
-    
+    .banner-content
+    {
+        padding: 0 20px;
+    }
+    /* Habit Part */
+    .habit
+    {
+        margin-top: 150%;
+        margin-left: 28px;
+        margin-right: 28px;
+    }
+    .habit-images-container {
+        
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }

@@ -295,11 +295,66 @@
     line-height: 120%;
     margin-bottom: 0;
 }
-.img-des
-{
+
+.img-des {
     font-size: 0.8rem;
     margin-bottom: 2px;
     margin-top: 5px;
+}
+
+/* Footer Section */
+footer {
+    background-color: rgba(255, 255, 255, 0.025);
+    margin-top: 88px;
+}
+
+.fitness {
+    max-width: 443px;
+    margin-top: 66px;
+    margin-left: 70px;
+}
+
+.fitness-title {
+    font-size: 4.3rem;
+    font-weight: bolder;
+    color: rgba(230, 83, 60, 1);
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 55px;
+}
+
+.get-1 {
+    margin-top: 66px;
+    margin-left: 120px;
+}
+
+.get {
+    margin-top: 66px;
+    margin-left: 80px;
+}
+
+.get-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+footer>hr {
+    max-width: 900px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
+}
+
+.copyright {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 /* Responsive Part */
@@ -379,18 +434,34 @@
         margin-left: 10px;
 
     }
+
     /* Trainer Part */
-    .trainer
-    {
+    .trainer {
         margin: 0 auto;
     }
+
     .trainer-images-container {
         grid-template-columns: repeat(1, 1fr);
         margin-left: 20px;
         margin-right: 20px;
     }
-    .trainer-content
-    {
+
+    .trainer-content {
         max-width: 340px;
+    }
+
+    /* Footer Section */
+    .footer {
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 55px;
+    }
+    .get {
+        margin-top: 66px;
+        margin-left: 120px;
+    }
+    .fitness {
+        max-width: 443px;
+        margin-top: 66px;
+        margin-left: 75px;
     }
 }

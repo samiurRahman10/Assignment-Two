@@ -88,6 +88,16 @@
     font-size: 1.1rem;
 }
 
+.btn-primary6 {
+    padding: 16px 45px;
+    background-color: rgba(230, 83, 60, 1);
+    border: 1px solid rgba(230, 83, 60, 1);
+    border-radius: 42px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
 .five {
     font-weight: 900;
     font-size: 2.5rem;
@@ -242,6 +252,127 @@
     padding: 30px 0px;
     border-radius: 35px;
 }
+
+/* Bmi Part */
+
+.bmi-heading2 {
+    max-width: 670px;
+    margin: 0 auto;
+    margin-top: 88px;
+    margin-bottom: 100px;
+}
+
+.bmi-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bmi {
+    background-color: rgba(34, 34, 34, 1);
+}
+
+table {
+    border-collapse: collapse;
+    max-width: 100px;
+}
+
+.caption {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+td,
+th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 8px 118px 8px 18px;
+}
+
+.bmi-contents {
+    gap: 150px;
+}
+
+.bmi-f-title {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+.bmi-f-des {
+    margin-top: 10px;
+    font-size: 0.87rem;
+}
+
+/* Calculation Part */
+.bmi-calculator-container {
+    max-width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    display: grid;
+    gap: 90px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+}
+
+.calculation-title {
+    font-size: 1.8rem;
+    font-weight: black;
+    margin-bottom: 35px;
+}
+
+.calculation-des {
+    font-size: 0.9rem;
+    margin-bottom: 35px;
+}
+.bmi-input-content .row {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.bmi-input-content .full-row {
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.characteristics {
+    width: calc(100% - 5px);
+    height: 45px;
+    background-color: rgba(255, 255, 255, 0.10);
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.41);
+    border: none;
+    border-radius: 10px;
+    padding-left: 1px;
+}
+
+.gender {
+    width: calc(100% - 5px);
+    height: 45px;
+    background-color: rgba(255, 255, 255, 0.10);
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.41);
+    border: none;
+    border-radius: 10px;
+    padding-left: 8px;
+}
+
+.activity {
+    width: 100%;
+    height: 45px;
+    background-color: rgba(255, 255, 255, 0.10);
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.41);
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
 
 /* Trainer Part */
 .trainer-images-container {
@@ -435,6 +566,14 @@ footer>hr {
 
     }
 
+    /* Bmi Part */
+    .bmi-contents {
+        flex-direction: column;
+    }
+    .characteristics,
+    .gender {
+        width: calc(100% - 5px);
+    }
     /* Trainer Part */
     .trainer {
         margin: 0 auto;
@@ -455,10 +594,12 @@ footer>hr {
         grid-template-columns: repeat(1, 1fr);
         margin-bottom: 55px;
     }
+
     .get {
         margin-top: 66px;
         margin-left: 120px;
     }
+
     .fitness {
         max-width: 443px;
         margin-top: 66px;

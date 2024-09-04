@@ -9,9 +9,9 @@
   <link href="https://fonts.cdnfonts.com/css/miama" rel="stylesheet">
 </head>
 
-<body class="inter-uniquer background-color1 max-width">
+<body class="inter-uniquer background-color1">
 
-  <header>
+  <header class="max-width">
     <div class="navbar display-flex ">
       <div class="nav-title"> Fitness</div>
       <span class="menu-icon"> ☰ </span>
@@ -41,7 +41,7 @@
   </header>
 
   <main>
-    <section class="habit">
+    <section class="habit max-width">
       <div class="habit-container">
         <h2 class="color-1 habit-title-1">Change Your Habits</h2>
         <p class="color-2 habit-des-1">"We believe that fitness should be accessible to everyone, everywhere, regardless
@@ -71,7 +71,7 @@
       </div>
     </section>
 
-    <section class="run display-flex">
+    <section class="run display-flex max-width">
       <div class="run-content">
         <h3 class="run-title color-1">Run an Extra <br> Mile Easily</h3>
         <p class="run-des color-2">We believe fitness should be accessible to everyone, everywhere, regardless of income
@@ -83,7 +83,78 @@
       </div>
     </section>
 
-    <section class="trainer">
+    <section class="bmi-heading max-width">
+      <div class="bmi-heading2">
+        <p class="bmi-title color-1">BMI Calculator</p>
+        <p class="bmi-des color-2">We believe fitness should be accessible to everyone, everywhere, regardless of income
+          or access to a gym.
+        </p>
+      </div>
+    </section>
+
+    <section class="bmi">
+      <div class="max-width">
+        <div class="bmi-contents display-flex">
+          <div class="bmi-table color-1">
+            <table>
+              <caption class="caption">BMI Calculator Chart</caption>
+              <thead>
+                <tr class="color-1 table-h">
+                  <th>BMI Count </th>
+                  <th>Weight Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="color-2 table-r">
+                  <td>Bellow 18.5</td>
+                  <td>Under Weight</td>
+                </tr>
+                <tr class="color-2 table-r">
+                  <td>18.5-24.9</td>
+                  <td>Healthy</td>
+                </tr>
+                <tr class="color-2 table-r">
+                  <td>25.0-29.9</td>
+                  <td>Over Weight</td>
+                </tr>
+                <tr class="color-2 table-r">
+                  <td>30.0-Above</td>
+                  <td>Obese</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="bmi-calculation-container">
+            <h3 class="calculation-title color-1">Calculate your BMI</h3>
+            <p class="calculation-des color-2">We believe fitness should be accessible to everyone, everywhere, regardless of
+              income or access to a gym.</p>
+            <div class="bmi-input-content">
+              <div class="row">
+                <input type="text" class="characteristics" placeholder="Height/cm">
+                <input type="text" class="characteristics" placeholder="Weight/kg">
+              </div>
+              <div class="row">
+                <input type="text" class="characteristics" placeholder="Age">
+                <select class="gender">
+                  <option value="">Sex</option>
+                </select>
+              </div>
+              <div class="full-row">
+                <select class="activity">
+                  <option value="">Select an activity factor</option>
+                </select>
+              </div>
+            </div>
+
+            <button class="btn-primary6">Calculate</button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="trainer max-width">
 
       <div class="trainer-content">
         <h3 class="trainer-title color-1">Meet Our Team</h3>
@@ -136,33 +207,32 @@
         </div>
       </div>
     </section>
-
-
   </main>
 
-  <footer>
-        <div class="footer">
-          <div class="fitness">
-            <div class="fitness-title">Fitness</div>
-            <div class="fitness-des color-2">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</div>
-          </div>
-          <div class="get-1">
-            <h5 class="get-title color-1">Get Started</h5>
-            <h6 class="get-des color-2">Services</h6>
-            <h6 class="get-des color-2">COntact Us</h6>
-            <h6 class="get-des color-2">Artificial Programme</h6>
-            <h6 class="get-des color-2">About Us</h6>
-          </div>
-          <div class="get">
-            <h5 class="get-title color-1">Get Started</h5>
-            <h6 class="get-des color-2">Fitness</h6>
-            <h6 class="get-des color-2">Platform</h6>
-            <h6 class="get-des color-2">Workout Library</h6>
-            <h6 class="get-des color-2">App Design</h6>
-          </div>
-        </div>
-        <hr>
-        <div class="copyright color-2">All right reserved @Fitness 2024</div>
+  <footer class="max-width">
+    <div class="footer">
+      <div class="fitness">
+        <div class="fitness-title">Fitness</div>
+        <div class="fitness-des color-2">We believe fitness should be accessible to everyone, everywhere, regardless of
+          income or access to a gym. With hundreds of professional workouts.</div>
+      </div>
+      <div class="get-1">
+        <h5 class="get-title color-1">Get Started</h5>
+        <h6 class="get-des color-2">Services</h6>
+        <h6 class="get-des color-2">COntact Us</h6>
+        <h6 class="get-des color-2">Artificial Programme</h6>
+        <h6 class="get-des color-2">About Us</h6>
+      </div>
+      <div class="get">
+        <h5 class="get-title color-1">Get Started</h5>
+        <h6 class="get-des color-2">Fitness</h6>
+        <h6 class="get-des color-2">Platform</h6>
+        <h6 class="get-des color-2">Workout Library</h6>
+        <h6 class="get-des color-2">App Design</h6>
+      </div>
+    </div>
+    <hr>
+    <div class="copyright color-2">All right reserved @Fitness 2024</div>
   </footer>
 </body>
 

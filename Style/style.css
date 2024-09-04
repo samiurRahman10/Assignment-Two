@@ -487,7 +487,66 @@ footer>hr {
     text-align: center;
     margin-bottom: 30px;
 }
+/* My Creation */
 
+.why {
+    margin-top: 30px;
+    padding: 60px 73px;
+    margin-bottom: 68px;
+}
+.why-des
+{
+    max-width: 670px;
+    margin: 0 auto;
+}
+.why-title {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.why-description {
+    text-align: center;
+    font-size: 16px;
+}
+
+.why-content1 {
+    margin-top: 36px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 74px;
+     background-color: rgba(34, 34, 34, 1);
+}
+.why-content2 {
+    margin-top: 36px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 74px;
+     background-color: rgba(34, 34, 34, 1);
+}
+.why-h3
+{
+    margin-bottom: 30px;
+}
+.why-p
+{
+    margin-bottom: 30px;
+}
+.content-text {
+    max-width: 477px;
+    margin-left: 0px;
+}
+.why-image-c
+{
+    max-width: 500px;
+    max-height: 500px;
+}
+.why-image
+{
+    width: 100%;
+    height: 100%;
+}
 /* Responsive Part */
 @media screen and (max-width:576px) {
 
@@ -551,7 +610,7 @@ footer>hr {
     }
 
     .run-content {
-        padding: 10px 33px 5px 30px;
+        padding: 10px;
     }
 
     .img-container {
@@ -569,6 +628,7 @@ footer>hr {
     /* Bmi Part */
     .bmi-contents {
         flex-direction: column;
+        gap: 40px;
     }
     .characteristics,
     .gender {
@@ -588,7 +648,38 @@ footer>hr {
     .trainer-content {
         max-width: 340px;
     }
-
+    /* My Creation */
+    .why-content1 {
+        margin-top: 36px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .why-content2 {
+        margin-top: 36px;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .why {
+        margin-top: 30px;
+        padding: 15px;
+        margin-bottom: 68px;
+    }
+    .why-title {
+        text-align: left;
+       margin-left: 0px;
+    }
+    .content-text {
+       
+        margin-left: 0px;
+    }
+    .why-title {
+        text-align:center;
+        
+    }
+    .why-description {
+        text-align:center;
+        
+    }
     /* Footer Section */
     .footer {
         grid-template-columns: repeat(1, 1fr);
